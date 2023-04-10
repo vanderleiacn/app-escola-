@@ -24,15 +24,15 @@ namespace AppEscola
                 MessageBox.Show("Digite um nome");
                 return;
             }
-            if (txtSenha.Text != "123")
+            if (txtSenha.Text != "123456")
             {
-                MessageBox.Show("Digite a senha");
+                MessageBox.Show("Senha invalida");
                 return;
             }
 
-            Program.usuario = txtNome.Text;
+            Program.usuario = txtNome.Text;//variavel declarada na class Program 
 
-            FrmPrincipal frm = new FrmPrincipal(); // estancindo ele pq eu quero abrir ele 
+            FrmPrincipal frm = new FrmPrincipal(); // estanciando ele pq eu quero abrir ele 
             frm.ShowDialog();
 
             this.Close();

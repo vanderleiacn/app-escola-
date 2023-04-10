@@ -76,7 +76,7 @@
             this.btnLogar.Name = "btnLogar";
             this.btnLogar.Size = new System.Drawing.Size(92, 32);
             this.btnLogar.TabIndex = 4;
-            this.btnLogar.Text = "OK";
+            this.btnLogar.Text = "Logar";
             this.btnLogar.UseVisualStyleBackColor = true;
             this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
             // 
