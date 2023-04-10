@@ -36,6 +36,8 @@ namespace AppEscola
             frm.ShowDialog();
 
             this.Close();
+          
         }
+        
     }
 }
